@@ -39,7 +39,7 @@ export default function PageInicio() {
 
     useEffect(()=>{
         if(!Autenticado){
-            navigate("/chromasoft/login");
+            navigate("/");
         } else{
             navigate("/chromasoft/dashboard");
             handleBuscarTarefa()

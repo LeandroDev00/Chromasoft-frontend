@@ -91,7 +91,7 @@ function PageCadastrar() {
         <ToastContainer/>
         <p className='text-center text-sm text-gray-600'>
           Já possui Login ? {" "} 
-          <Link to="/chromasoft/login">Clique aqui</Link>
+          <Link to="/">Clique aqui</Link>
         </p>
       </div>
     </>

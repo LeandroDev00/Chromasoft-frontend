@@ -17,7 +17,7 @@ function App() {
     if(Autenticado){
       navigate("/chromasoft/dashboard");
     } else{
-      navigate("/chromasoft/login");
+      navigate("/");
     }
   }, [Autenticado])
   async function handleLogin(){

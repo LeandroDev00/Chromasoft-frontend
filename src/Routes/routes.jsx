@@ -8,7 +8,7 @@ function AppRoutes(){
     return (
         <Router>
             <Routes>
-                <Route path="/chromasoft/login" element={<App />} />
+                <Route path="/" element={<App />} />
                 <Route path="/chromasoft/dashboard" element={<PageInicio/>}/>
                 <Route path="/chromasoft/cadastrar" element={<PageCadastrar />} />
             </Routes>
