@@ -14,10 +14,10 @@ function App() {
 
   useEffect(()=>{
     console.log("Login: ", Autenticado);
-    if(Autenticado){
-      navigate("/chromasoft/dashboard");
-    } else{
+    if(!Autenticado){
       navigate("/");
+    } else{
+      navigate("/chromasoft/dashboard");
     }
   }, [Autenticado])
   async function handleLogin(){
